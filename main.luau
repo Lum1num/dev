@@ -3,7 +3,7 @@
 getgenv().client = 1
 getgenv().ding = false
 
-if getgenv().clientisactive then end
+if getgenv().clientisactive then return end
 
 getgenv().clientisactive = true
 
